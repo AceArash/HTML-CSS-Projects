@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Lato", sans-serif;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: url(Fitness-Landing-Page\content\images\bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .logo {
+  position: relative;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+}
+header .navigation li a {
+  display: inline-block;
+  color: #fff;
+  margin-right: 40px;
+  text-decoration: none;
+}
+header .navigation li a:hover {
+  color: #03a9f4;
+}
+.content {
+  max-width: 600px;
+}
+.content .contentBx h2 {
+  font-size: 4em;
+  color: #fff;
+  line-height: 1em;
+}
+.content .contentBx p {
+  font-size: 1.1em;
+  color: #fff;
+  line-height: 1em;
+}
