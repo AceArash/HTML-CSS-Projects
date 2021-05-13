@@ -1,0 +1,30 @@
+* {
+    background-color: aliceblue;
+    font-size: 24px;
+
+}
+
+#container {
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 16px double magenta;
+}
+
+p {
+    font-size: 32px;
+    color: darkred;
+    font-weight: 300;
+}
+
+#input {
+    width: 100px;
+    margin: 3px auto;
+}
+
+/* #btn {
+    margin: 24px auto auto 6px;
+} */
